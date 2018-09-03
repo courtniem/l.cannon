@@ -1,0 +1,623 @@
+/*
+* {
+  border: 1px solid red;
+}
+*/
+
+/* NAVIGATION: STARTS */
+.container { position:relative; width:960px; margin:0 auto; padding:0; background-color: white}
+.container .columns { float:left; display:inline; margin-left:10px; margin-right:10px; }
+.container .twelve.columns { width:900px; }
+.container .offset-by-two { padding-left:120px; }
+
+
+.title-bar {
+  height: 70px;
+  padding-top: 23px;
+  padding-left: 20px;
+  background-color: rgba(255,255,255,1); }
+  .index_button img {
+    width: 60px;
+    right: 0px;
+    position: absolute;
+    z-index: 999; }
+  #sub-menu .top-bar-right ul {
+  text-align: center; }
+.top-bar {
+  background-color: #fff; }
+  .top-bar ul {
+    background-color: #fff; }
+  .top-bar ul li a {
+    color: #000;
+    font-weight: bold;
+    text-align:left; }
+.menu-icon {
+  height: 25px;
+  width: 30px;
+  outline-style:none; }
+  .menu-icon::after {
+    height: 5px;
+    background: #000;
+    box-shadow: 0 10px 0 #000, 0 20px 0 #000; }
+  .menu-icon:hover::after {
+    background: #000;
+    box-shadow: 0 10px 0 #000, 0 20px 0 #000; }
+  /* NAVIGATION: ENDS*/
+
+
+
+/*header section starts*/
+.header_services h1{
+  font-family: "mr-eaves-modern",sans-serif;
+  font-size: 50pt;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+}
+
+.header_services h3{
+
+    font-family: "mr-eaves-xl-modern",sans-serif;
+    font-size: 13pt;
+    text-align: center;
+    margin: 0px;
+    padding: 0px 50px;
+
+
+}
+
+
+
+/*header section ends*/
+
+
+  /* FOOTER SECTION: STARTS */
+  #footer {
+    height: 100%;
+    text-align: center; }
+    #footer a img {
+      width: 50px;
+      margin: 10px; }
+    .footer_bottom {
+      width: 100; }
+    .footer_bottom p {
+      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-size: 8pt;
+      color: #fff;
+      text-align: center;
+      letter-spacing: 1px;
+      margin: 0px auto;
+      padding: 10px 0px;
+      background-color: #000; }
+  /* FOOTER SECTION: ENDS */
+
+
+  /* WORK PAGE: STARTS */
+  .header_home h1{
+    font-family: "mr-eaves-modern",sans-serif;
+    font-size: 50pt;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px; }
+  .header_home h3{
+    font-family: "mr-eaves-xl-modern",sans-serif;
+    font-size: 13pt;
+    text-align: center;
+    margin: 0px;
+    padding: 0px 50px;
+
+    } /*THIS GOES FOR HOME/WORK PAGE*/
+  .header_aboutncontact h3 /*THIS GOES FOR ABOUT PAGE*/ {
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    margin: 0px;
+    padding: 0px 50px; }
+
+    /*** WORK THUMBNAIL CONTAINER: STARTS ***/
+      .workthumbs_container {
+        margin: 0px;
+        padding: 20px 20px 50px 20px; }
+        .workthumbs_box {
+          height: 150px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          outline: 8px solid #fff;
+          margin: 0px;
+          padding: 0px; }
+          .workthumbs_text {
+            height: 100%;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 1);
+            text-align: center;
+            visibility: hidden; }
+            .workthumbs_text h1 {
+
+              font-weight: 500;
+              font-size: 16pt;
+              color: #000;
+              text-align: center;
+              text-transform: uppercase;
+              letter-spacing: 2px;
+              padding-top: 175px;
+              margin: 0px; }
+      /*** WORK THUMBNAIL CONTAINER: ENDS ***/
+  /* WORK PAGE: ENDS */
+
+
+  /* ABOUT & CONTACT PAGE: STARTS*/
+  .header_aboutncontact h1 {
+
+     font-family: "objektiv-mk1",sans-serif;
+    font-size: 25pt;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    padding: 20px 0px; }
+  #resume, #contact_button {
+    text-align: center;
+    padding: 40px 0px 0px 0px; }
+    #resume a img,
+    #contact_button img {
+      width: 75px; }
+
+  .aboutparagraph_container {
+    margin: 0px;
+    padding: 40px 20px;
+    text-align: center; }
+
+  .services_container {
+    text-align: center; }
+    .services_container h2 {
+      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-size: 20pt;
+      font-weight: bold;
+      text-align: center;
+      margin: 0px;
+      padding: 20px 0px; }
+    .services_container img {
+      padding: 20px 50px; }
+  /* ABOUT & CONTACT PAGE: ENDS*/
+
+
+  /* PROJECT STYLING: STARTS*/
+  .header_project h1 {
+  font-family: "objektiv-mk1",sans-serif;
+    font-size: 25pt;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    padding: 20px 0px; }
+  .header_project h3 {
+    font-family: "mono45-headline",monospace;
+    font-size: 12pt;
+    text-align: center;
+    margin: 0px;
+    padding: 0px 50px; }
+  .projectparagraph_container {
+    margin: 0px;
+    padding: 40px 20px;
+    text-align: center; }
+  .project_content {
+    text-align: center;
+    padding: 0px 20px 0px 20px; }
+    .project_content img {
+      padding: 5px 0px; }
+
+  .worklinks_container {
+    margin: 0px;
+    padding: 120px 0px 50px 0px; }
+    .worklinks {
+    text-align: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px; }
+      .worklinks ul {
+        margin: 0px;
+        padding: 0px }
+        .worklinks li {
+            font-family: "objektiv-mk1",sans-serif;
+          display: block;
+          font-size: 18px;
+          padding: 5px 0px; }
+          .worklinks li a {
+            font-family: "objektiv-mk1",sans-serif;
+            font-weight: 500;
+            font-size: 12pt;
+            color: #ccc;
+            letter-spacing: 1px;
+            text-decoration: none; }
+
+
+  /* PROJECT STYLING: ENDS*/
+
+
+  /******************************************* 320px TABLET *******************************************/
+  @media screen and (min-width: 320px) {
+
+@media only screen and (max-width: 767px) {
+.container { width:300px; }
+.container .columns { margin:0; }
+.container .twelve.columns { width:300px; }
+.container .offset-by-two { padding-left:0; }
+}
+
+
+    /* WORK PAGE: STARTS */
+    .header_home h1 {
+      font-size: 40pt; }
+    /* WORK PAGE: ENDS */
+
+    /* ABOUT & CONTACT PAGE: STARTS */
+    .header_aboutncontact h1 {
+      font-size: 20pt;}
+    .header_aboutncontact h3 {
+      padding: 0px 30px; }
+    /* ABOUT & CONTACT : ENDS */
+  }
+
+  .worklinks_container {
+      margin: 0px;
+      padding: 120px 0px 50px 0px; }
+      .worklinks {
+      text-align: center;
+      list-style: none;
+      margin: 0px;
+      padding: 0px; }
+        .worklinks ul {
+          margin: 0px;
+          padding: 0px }
+          .worklinks li {
+            display: block;
+            font-size: 18px;
+            padding: 5px 0px; }
+            .worklinks li a {
+              font-family: "objektiv-mk1",sans-serif;
+              font-weight: 500;
+              font-size: 12pt;
+              color: #ccc;
+              letter-spacing: 1px;
+              text-decoration: none; }
+
+
+    /* PROJECT STYLING: ENDS*/
+
+  /******************************************* 320px *******************************************/
+
+
+  /******************************************* 768px TABLET *******************************************/
+  @media screen and (min-width: 768px) {
+
+    /* WORK PAGE: STARTS */
+    .workthumbs_box {
+      height: 250px; }
+    /* WORK PAGE: ENDS */
+
+
+    /* ABOUT & CONTACT PAGE: STARTS */
+    .header_aboutncontact {
+      padding: 0px 100px; }
+    /* ABOUT & CONTACT PAGE: STARTS */
+
+
+    /* ABOUT PAGE: STARTS */
+    .aboutparagraph_container {
+      padding: 40px 40px; }
+    /* ABOUT PAGE: ENDS */
+  }
+  /******************************************* 768px *******************************************/
+
+
+  /******************************************* 1025px DESKTOP *******************************************/
+  @media screen and (min-width: 1025px) {
+
+    /*** NAGIVATION: STARTS ***/
+    .top-bar {
+      width: 200px;
+      z-index: -1; }
+    /*** NAVIGATION: ENDS ***/
+
+
+/***HEADER STARTS***/
+
+.header_home h1{
+  font-family: "mr-eaves-modern",sans-serif;
+  font-size: 70pt;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+}
+
+  .header_home h3{
+
+    font-family: "mr-eaves-xl-modern",sans-serif;
+    font-size: 18pt;
+    text-align: center;
+    margin: 0px;
+    padding: 0px 50px;
+  }
+
+  .header_services h1{
+    font-family: "mr-eaves-modern",sans-serif;
+    font-size: 70pt;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+  }
+
+    .header_services h3{
+
+      font-family: "mr-eaves-xl-modern",sans-serif;
+      font-size: 18pt;
+      text-align: center;
+      margin: 0px;
+      padding: 0px 50px;
+    }
+
+     /*THIS GOES FOR HOME/WORK PAGE*/
+    /* WORK PAGE: STARTS */
+    .workthumbs_box {
+      height: 350px; }
+      .workthumbs_text {
+        background-color: inherit;
+        visibility: hidden; }
+      .workthumbs_box:hover .workthumbs_text {
+        visibility: visible;
+        background-color: rgba(255, 255, 255, 1);
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s; }
+        .workthumbs_text:hover h1 {
+          font-family: "objektiv-mk1",sans-serif;
+          font-size: 18pt;
+          visibility: visible;
+          -webkit-transition-duration: 0.2s;
+          -moz-transition-duration: 0.2s;
+          -o-transition-duration: 0.2s;
+          transition-duration: 0.2s; }
+    /* WORK PAGE: ENDS */
+
+/*--------- PROJECT STYLING STARTS**-------*/
+
+      .worklinks_container {
+        margin: 0px;
+        padding: 120px 0px 50px 0px; }
+        .worklinks {
+        text-align: center;
+        list-style: none;
+        margin: 0px;
+        padding: 0px; }
+          .worklinks ul {
+            margin: 0px;
+            padding: 0px }
+            .worklinks li {
+              display: inline;
+              font-size: 18px;
+              padding: 5px 60px; }
+              .worklinks li a {
+                font-family: "objektiv-mk1",sans-serif;
+                font-weight: 500;
+                font-size: 12pt;
+                color: #ccc;
+                letter-spacing: 1px;
+                text-decoration: none; }
+
+
+      /* PROJECT STYLING: ENDS*/
+
+
+
+
+
+/*----audio styling starts----*/
+/* Self Clearing Goodness
+================================================== */
+.container:after {
+clear:both;
+content:"\0020";
+display:block;
+height:0;
+visibility:hidden;
+}
+
+
+/* CSS Reset
+================================================== */
+html,body,div,span,h1,h6,p,a,ul,li,audio {
+border:0;
+font:inherit;
+font-size:100%;
+margin:0;
+padding:0;
+vertical-align:baseline;
+}
+
+body { line-height:1; }
+ul { list-style:none; }
+
+
+/* Basic Styles
+================================================== */
+
+
+
+/* Typography
+================================================== */
+h1,h6,p { color:#808080; font-weight:300; }
+h1 { font-size:42px; line-height:44px; margin:20px 0 0; }
+h6 { font-size:18px; line-height:20px; margin:0 0 20px; }
+p { margin:0 0 20px; }
+
+
+/* Links
+================================================== */
+a,a:visited { color:#ddd; outline:0; text-decoration:underline; }
+a:hover,a:focus { color:#bbb; }
+p a,p a:visited { line-height:inherit; }
+
+
+/* Misc.
+================================================== */
+.add-bottom { margin-bottom:20px !important; }
+.left { float:left; }
+.right { float:right; }
+.center { text-align:center; }
+
+
+/* Custom Styles
+================================================== */
+html,body {
+-webkit-font-smoothing:antialiased;
+-webkit-text-size-adjust:100%;
+background-color:white;
+color:#C8C7C8;
+font:18px/20px "Yanone Kaffeesatz", HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight:300;
+}
+
+/* CSS Transitions */
+* {
+-moz-transition:all 100ms ease;
+-o-transition:all 100ms ease;
+-webkit-transition:all 100ms ease;
+transition:all 100ms ease;
+}
+
+/* Highlight Styles */
+::selection { background-color:#262223; color:#444; }
+::-moz-selection { background-color:#262223; color:#444; }
+
+
+/* Audio Player Styles
+================================================== */
+
+/* Default - Firefox */
+audio { margin:0 15px; width:670px; left:}
+#audiowrap { background-color:#231F20; margin:0 auto; }
+#plwrap { margin:0 auto; }
+#tracks { min-height:66px; position:relative; text-align:center; text-decoration:none; top:16px; }
+#nowPlay { display:inline; }
+#npTitle { margin:0; padding:21px; text-align:right; }
+#npAction { padding:21px; }
+#plList { margin:0; }
+#plList li { background-color:#231F20; cursor:pointer; margin:0; padding:21px 0; }
+#plList li:hover { background-color:#262223; }
+.plItem { position:relative; }
+.plTitle { left:40px; overflow:hidden; position:absolute; right:65px; text-overflow:ellipsis; top:0; white-space:nowrap; }
+.plNum { padding-left:21px; width:25px; }
+.plLength { padding-left:21px; position:absolute; right:21px; top:0; }
+.plSel,.plSel:hover { background-color:#262223!important; cursor:default!important; }
+a[id^="btn"] { background-color:#231F20; color:#C8C7C8; cursor:pointer; font-size:50px; margin:0; padding:0 27px 11px; text-decoration:none; }
+a[id^="btn"]:last-child { margin-left:-3px; }
+a[id^="btn"]:hover,a[id^=btn]:active { background-color:#262223; }
+a[id^="btn"]::-moz-focus-inner { border:0; padding:0; }
+
+/* IE 9 */
+html[data-useragent*="MSIE 9.0"] audio { margin-left:9px; outline:none; width:680px; }
+html[data-useragent*="MSIE 9.0"] #audiowrap { background-color:#000; }
+html[data-useragent*="MSIE 9.0"] #tracks { min-height:59px; top:8px;}
+html[data-useragent*="MSIE 9.0"] a[id^="btn"] { background-color:#000; }
+html[data-useragent*="MSIE 9.0"] a[id^="btn"]:hover { background-color:#080808; }
+html[data-useragent*="MSIE 9.0"] #plList li { background-color:#000; }
+html[data-useragent*="MSIE 9.0"] #plList li:hover { background-color:#080808; }
+html[data-useragent*="MSIE 9.0"] .plSel,
+html[data-useragent*="MSIE 9.0"] .plSel:hover { background-color:#080808!important; }
+
+/* IE 10 */
+html[data-useragent*="MSIE 10.0"] audio { margin-left:6px; width:687px; }
+html[data-useragent*="MSIE 10.0"] #audiowrap { background-color:#000; }
+html[data-useragent*="MSIE 10.0"] #tracks { min-height:62px; top:11px;}
+html[data-useragent*="MSIE 10.0"] a[id^="btn"] { background-color:#000; }
+html[data-useragent*="MSIE 10.0"] a[id^="btn"]:hover { background-color:#080808; }
+html[data-useragent*="MSIE 10.0"] #plList li { background-color:#000; }
+html[data-useragent*="MSIE 10.0"] #plList li:hover { background-color:#080808; }
+html[data-useragent*="MSIE 10.0"] .plSel,
+html[data-useragent*="MSIE 10.0"] .plSel:hover { background-color:#080808!important; }
+
+/* IE 11 */
+html[data-useragent*="rv:11.0"] audio { margin-left:2px; width:695px; }
+html[data-useragent*="rv:11.0"] #audiowrap { background-color:#000; }
+html[data-useragent*="rv:11.0"] #tracks { min-height:62px; top:11px;}
+html[data-useragent*="rv:11.0"] a[id^="btn"] { background-color:#000; }
+html[data-useragent*="rv:11.0"] a[id^="btn"]:hover { background-color:#080808; }
+html[data-useragent*="rv:11.0"] #plList li { background-color:#000; }
+html[data-useragent*="rv:11.0"] #plList li:hover { background-color:#080808; }
+html[data-useragent*="rv:11.0"] .plSel,
+html[data-useragent*="rv:11.0"] .plSel:hover { background-color:#080808!important; }
+
+/* All Apple Products */
+html[data-useragent*="Apple"] #audiowrap { background-color:#000; }
+html[data-useragent*="Apple"] a[id^="btn"] { background-color:#000; }
+html[data-useragent*="Apple"] a[id^="btn"]:hover { background-color:#080808; }
+html[data-useragent*="Apple"] #plList li { background-color:#000; }
+html[data-useragent*="Apple"] #plList li:hover { background-color:#080808; }
+html[data-useragent*="Apple"] .plSel,
+html[data-useragent*="Apple"] .plSel:hover { background-color:#080808!important; }
+
+/* IOS 7 */
+html[data-useragent*="OS 7"] body { color:#373837; }
+html[data-useragent*="OS 7"] audio { margin-left:3px; width:690px; }
+html[data-useragent*="OS 7"] #tracks { min-height:77px; top:27px;}
+html[data-useragent*="OS 7"] #audiowrap { background-color:#e6e6e6; }
+html[data-useragent*="OS 7"] a[id^="btn"] { background-color:#e6e6e6; color:#373837; }
+html[data-useragent*="OS 7"] a[id^="btn"]:hover { background-color:#eee; }
+html[data-useragent*="OS 7"] #plList li { background-color:#e6e6e6; }
+html[data-useragent*="OS 7"] #plList li:hover { background-color:#eee; }
+html[data-useragent*="OS 7"] .plSel,
+html[data-useragent*="OS 7"] .plSel:hover { background-color:#eee!important; }
+
+/* Chrome */
+html[data-useragent*="Chrome"] audio { margin-left:6px; width:687px; }
+html[data-useragent*="Chrome"] #audiowrap { background-color:#131313; }
+html[data-useragent*="Chrome"] a[id^="btn"] { background-color:#131313; }
+html[data-useragent*="Chrome"] a[id^="btn"]:hover { background-color:#161616; }
+html[data-useragent*="Chrome"] #plList li { background-color:#131313; }
+html[data-useragent*="Chrome"] #plList li:hover { background-color:#161616; }
+html[data-useragent*="Chrome"] .plSel,
+html[data-useragent*="Chrome"] .plSel:hover { background-color:#161616!important; }
+
+
+/* Media Queries (Screen Width)
+================================================== */
+
+/* Tablet Portrait to Desktop (960px) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+audio { width:526px; }
+html[data-useragent*="MSIE 9.0"] audio { width:536px; }
+html[data-useragent*="MSIE 10.0"] audio { width:543px; }
+html[data-useragent*="rv:11.0"] audio { width:551px; }
+html[data-useragent*="OS 7"] audio { width:546px; }
+html[data-useragent*="Chrome"] audio { width:543px; }
+}
+
+/* Mobile Landscape to Tablet Portrait */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+audio { width:390px; }
+html[data-useragent*="MSIE 9.0"] audio { width:400px; }
+html[data-useragent*="MSIE 10.0"] audio { width:407px; }
+html[data-useragent*="rv:11.0"] audio { width:415px; }
+html[data-useragent*="OS 7"] audio { width:410px; }
+html[data-useragent*="Chrome"] audio { width:407px; }
+
+#npAction { position:absolute; }
+#npTitle { width:261px; }
+}
+
+/* Mobile Portrait to Mobile Landscape */
+@media only screen and (max-width: 479px) {
+audio { width:270px; }
+html[data-useragent*="MSIE 9.0"] audio { width:280px; }
+html[data-useragent*="MSIE 10.0"] audio { width:287px; }
+html[data-useragent*="rv:11.0"] audio { width:295px; }
+html[data-useragent*="OS 7"] audio { width:290px; }
+html[data-useragent*="Chrome"] audio { width:287px; }
+
+#npAction { position:absolute; }
+#npTitle { width:156px; }
+}
+/* AUDIO STYLING ENDS*/
+
+  }
+  /******************************************* 1025px *******************************************/
